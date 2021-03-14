@@ -39,7 +39,8 @@ valid_snacks = [
         ["popcorn", "p", "corn", "a"],
         ["M&M's", "m&m's", "mms", "m", "b"],
         ["pita chips", "chips", "pc", "pita", "c"],
-        ["water", "w", "d"]
+        ["water", "w", "d"],
+        ["orange juice", "oj", "o", "juice", "e"]
 ]
 
 yes_no = [
@@ -93,7 +94,7 @@ if check_snack == "Yes":
 
         # check that snack is not the exit code before adding
         if snack_choice != "xxx" and snack_choice != "invalid choice":
-            snack_order.append(snack_choice)
+            snack_order.append(amount_snack)
 
 # show snack orders
 print()
