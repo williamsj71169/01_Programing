@@ -54,7 +54,7 @@ ticket_count = 0
 ticket_sales = 0
 
 
-while name != "XXX" and ticket_count < max_tickets:
+while name != "xxx" and ticket_count < max_tickets:
 
     # tell user how many seats left
     if ticket_count < max_tickets - 1:
@@ -69,7 +69,7 @@ while name != "XXX" and ticket_count < max_tickets:
     print()
 
     # end the loop if the exit code is entered
-    if name == "XXX":
+    if name == "xxx":
         break
 
     # get age (between 12 and 130)
