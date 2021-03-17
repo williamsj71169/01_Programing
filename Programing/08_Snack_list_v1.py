@@ -23,3 +23,16 @@ test_data = [
     [[1, 'Water'], [1, 'Pita Chips'], [1, 'M&Ms']],
     [[1, 'Orange Juice']],
 ]
+
+count = 0
+for client_order in test_data:
+
+    # assume no snacks have been bought
+    for item in snack_lists:
+        item.append(0)
+
+    # print (snack_lists)
+
+    # get order (hard coded for easy training)
+    snack_order = test_data[count]
+    count += 1
