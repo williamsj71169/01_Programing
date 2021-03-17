@@ -27,7 +27,7 @@ def string_check(choice, options):
         return "invalid choice"
 
 
-# gETS list OF SNACKS
+# Gets list of snacks
 def get_snack():
 
     # regular expression to find if item starts with a number
@@ -109,7 +109,7 @@ if check_snack == "Yes":
     get_order = get_snack()
 
 else:
-    get_order =[]
+    get_order = []
 
 
 # show snack orders
