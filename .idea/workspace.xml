@@ -23,16 +23,44 @@
       <file leaf-file-name="01_MMF_v4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="244" selection-end-column="18" />
+            <state relative-caret-position="408">
+              <caret line="109" column="31" selection-start-line="85" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding>
-                <element signature="e#19#28#0" expanded="true" />
                 <element signature="e#135#479#0" expanded="false" />
                 <element signature="e#545#975#0" expanded="false" />
                 <element signature="e#1095#1362#0" expanded="false" />
                 <element signature="e#1427#1901#0" expanded="false" />
-                <element signature="e#1961#2552#0" expanded="false" />
-                <element signature="e#2596#4424#0" expanded="false" />
+                <element signature="e#1961#2567#0" expanded="false" />
+                <element signature="e#2611#4439#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_MMF_v5.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="e#135#479#0" expanded="false" />
+                <element signature="e#545#975#0" expanded="false" />
+                <element signature="e#1095#1362#0" expanded="false" />
+                <element signature="e#1427#1901#0" expanded="false" />
+                <element signature="e#1961#2567#0" expanded="false" />
+                <element signature="e#2611#4439#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09_surcharge_v1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Programing/09_surcharge_v1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+              <folding>
+                <element signature="e#110#716#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -48,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08_Snack_list_v2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="08_Snack_list_v2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Programing/08_Snack_list_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="1139">
+              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -117,9 +145,10 @@
         <option value="$PROJECT_DIR$/Programing/01_MMF_v2.py" />
         <option value="$PROJECT_DIR$/Programing/01_MMF_v3.py" />
         <option value="$PROJECT_DIR$/Programing/07.5_string_check_analyse_v3.py" />
-        <option value="$PROJECT_DIR$/Programing/01_MMF_v4.py" />
         <option value="$PROJECT_DIR$/Programing/08_Snack_list_v1.py" />
         <option value="$PROJECT_DIR$/Programing/08_Snack_list_v2.py" />
+        <option value="$PROJECT_DIR$/Programing/01_MMF_v4.py" />
+        <option value="$PROJECT_DIR$/Programing/09_surcharge_v1.py" />
       </list>
     </option>
   </component>
@@ -201,24 +230,7 @@
       <recent name="C:\Users\williamsj71169\OneDrive - Massey High School\!! School !!\12_Com\01_Programing\Programing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.08_Snack_list_v2">
-    <configuration default="false" name="07.5_string_check_analyse (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="01_Programing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programing/07.5_string_check_analyse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.09_surcharge_v1">
     <configuration default="false" name="01_MMF_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,6 +295,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="01_Programing" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programing/08_Snack_list_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="09_surcharge_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="01_Programing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programing/09_surcharge_v1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -422,19 +451,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.07.5_string_check_analyse (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.01_MMF_v3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.08_Snack_list_v1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.01_MMF_v4" />
-      <item index="4" class="java.lang.String" itemvalue="Python.08_Snack_list_v2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.01_MMF_v3" />
+      <item index="1" class="java.lang.String" itemvalue="Python.08_Snack_list_v1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.01_MMF_v4" />
+      <item index="3" class="java.lang.String" itemvalue="Python.08_Snack_list_v2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.09_surcharge_v1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.08_Snack_list_v2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.08_Snack_list_v1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.01_MMF_v4" />
-        <item index="3" class="java.lang.String" itemvalue="Python.01_MMF_v3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.07.5_string_check_analyse (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.09_surcharge_v1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.08_Snack_list_v2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.08_Snack_list_v1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.01_MMF_v4" />
+        <item index="4" class="java.lang.String" itemvalue="Python.01_MMF_v3" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +481,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="948" y="0" width="979" height="1047" extended-state="1" />
+    <frame x="948" y="0" width="979" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07580478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -460,7 +489,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37033084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37033084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -530,16 +559,78 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+        <state relative-caret-position="1717">
+          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="244" selection-end-column="18" />
           <folding>
-            <element signature="e#19#28#0" expanded="true" />
             <element signature="e#135#479#0" expanded="false" />
             <element signature="e#545#975#0" expanded="false" />
             <element signature="e#1095#1362#0" expanded="false" />
             <element signature="e#1427#1901#0" expanded="false" />
-            <element signature="e#1961#2552#0" expanded="false" />
-            <element signature="e#2596#4424#0" expanded="false" />
+            <element signature="e#1961#2567#0" expanded="false" />
+            <element signature="e#2611#4439#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/08_Snack_list_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/08_Snack_list_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/07.5_string_check_analyse_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+            <element signature="e#134#478#0" expanded="false" />
+            <element signature="e#544#974#0" expanded="false" />
+            <element signature="e#1094#1361#0" expanded="false" />
+            <element signature="e#1426#1900#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/07.5_string_check_analyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#73#664#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+          <folding>
+            <element signature="e#135#479#0" expanded="false" />
+            <element signature="e#545#975#0" expanded="false" />
+            <element signature="e#1095#1362#0" expanded="false" />
+            <element signature="e#1427#1901#0" expanded="false" />
+            <element signature="e#1961#2567#0" expanded="false" />
+            <element signature="e#2611#4439#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -589,13 +680,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#19#28#0" expanded="true" />
             <element signature="e#135#479#0" expanded="false" />
             <element signature="e#545#975#0" expanded="false" />
             <element signature="e#1095#1362#0" expanded="false" />
             <element signature="e#1427#1901#0" expanded="false" />
-            <element signature="e#1961#2552#0" expanded="false" />
-            <element signature="e#2596#4424#0" expanded="false" />
+            <element signature="e#1961#2567#0" expanded="false" />
+            <element signature="e#2611#4439#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -837,22 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="244" selection-end-column="18" />
-          <folding>
-            <element signature="e#19#28#0" expanded="true" />
-            <element signature="e#135#479#0" expanded="false" />
-            <element signature="e#545#975#0" expanded="false" />
-            <element signature="e#1095#1362#0" expanded="false" />
-            <element signature="e#1427#1901#0" expanded="false" />
-            <element signature="e#1961#2552#0" expanded="false" />
-            <element signature="e#2596#4424#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Programing/08_Snack_list_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -863,9 +937,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Programing/08_Snack_list_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        <state relative-caret-position="1139">
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/09_surcharge_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="e#110#716#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="109" column="31" selection-start-line="85" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#135#479#0" expanded="false" />
+            <element signature="e#545#975#0" expanded="false" />
+            <element signature="e#1095#1362#0" expanded="false" />
+            <element signature="e#1427#1901#0" expanded="false" />
+            <element signature="e#1961#2567#0" expanded="false" />
+            <element signature="e#2611#4439#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#135#479#0" expanded="false" />
+            <element signature="e#545#975#0" expanded="false" />
+            <element signature="e#1095#1362#0" expanded="false" />
+            <element signature="e#1427#1901#0" expanded="false" />
+            <element signature="e#1961#2567#0" expanded="false" />
+            <element signature="e#2611#4439#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
