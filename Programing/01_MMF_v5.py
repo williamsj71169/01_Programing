@@ -180,6 +180,12 @@ yes_no = [
     ["no", "n"]
 ]
 
+# valid options for payment method
+pay_method = [
+    ["cash", "ca"],
+    {"credit", "cr"}
+]
+
 max_tickets = 5
 
 name = ""
@@ -238,6 +244,27 @@ while name != "xxx" and ticket_count < max_tickets:
     else:
         get_order = []
 
+    # show snack orders
+    print()
+    if len(get_order) == 0:
+        print("Snacks Ordered: None")
+
+    else:
+        print("Snacks Ordered:")
+        print(get_order)
+
+    # Get payment method (ie: work out if surcharge in needed)
+    # ask for payment method
+    how_pay = "invalid choice"
+    while how_pay == "invalid choice":
+        how_pay = input("Please choose a payment method (cash / credit)?").lower()
+        how_pay = string_check(how_pay, pay_method)
+
+    if how_pay == "Credit":
+        surcharge_multiplier = 0.05
+    else:
+        surcharge_multiplier = 0
+
     # add name and ticket price to lists
     all_names.append(name)
     all_tickets.append(ticket_price)
@@ -256,19 +283,6 @@ if ticket_count == max_tickets:
 else:
     print("You have sold {} tickets. \n"
           "There are {} tickets still available".format(ticket_count, max_tickets - ticket_count))
-
-# show snack orders
-print()
-if len(get_order) == 0:
-    print("Snacks Ordered: None")
-
-else:
-    print("Snacks Ordered:")
-
-    '''for item in snack_order:
-        print(item)'''
-
-    print(get_order)
 
     # Ask payment method and work out surcharge if credit is chosen
     # surcharge of *0.05
