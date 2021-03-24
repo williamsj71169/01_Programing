@@ -123,7 +123,7 @@ def get_snack():
 
     valid_snacks = [
         ["popcorn", "p", "corn", "a"],
-        ["M&M's", "m&m's", "mms", "m", "b"],
+        ["M&Ms", "m&ms", "mms", "m", "b"],
         ["pita chips", "chips", "pc", "pita", "c"],
         ["water", "w", "d"],
         ["orange juice", "oj", "o", "juice", "e"]
@@ -196,11 +196,37 @@ ticket_sales = 0
 all_names = []
 all_tickets = []
 
+# snack lists...
+popcorn = []
+mms = []
+pita_chips = []
+water = []
+orange_juice = []
+
+snack_lists = [popcorn, mms, pita_chips, water, orange_juice]
+
+# store surcharge multiplier
+surcharge_multi_list = []
+
 # data frame dictionary
 movie_data_dict = {
     'Name': all_names,
-    'Ticket': all_tickets
+    'Ticket': all_tickets,
+    'Popcorn': popcorn,
+    'Water': water,
+    'Pita Chips': pita_chips,
+    'M&Ms': mms,
+    'Orange Juice': orange_juice,
+    'Surcharge_Multiplier': surcharge_multi_list
+}
 
+# cost of each snack
+price_dict = {
+    'Popcorn': 2.5,
+    'Water': 2,
+    'Pita Chips': 4.5,
+    'M&Ms': 3,
+    'Orange Juice': 3.25,
 }
 
 # ask user if they have done ths before
@@ -239,19 +265,21 @@ while name != "xxx" and ticket_count < max_tickets:
 
     # if they say yes, ask what snacks they want (and add to list)
     if check_snack == "Yes":
-        get_order = get_snack()
+        snack_order = get_snack()
 
     else:
-        get_order = []
+        snack_order = []
 
-    # show snack orders
-    print()
-    if len(get_order) == 0:
-        print("Snacks Ordered: None")
+    # assume no snacks have been bought
+    for item in snack_lists:
+        item.append(0)
 
-    else:
-        print("Snacks Ordered:")
-        print(get_order)
+    for item in snack_order:
+        if len(item) > 0:
+            to_find = (item[1])
+            amount = (item[0])
+            add_list = movie_data_dict[to_find]
+            add_list[-1] = amount
 
     # Get payment method (ie: work out if surcharge in needed)
     # ask for payment method
@@ -265,13 +293,52 @@ while name != "xxx" and ticket_count < max_tickets:
     else:
         surcharge_multiplier = 0
 
+    surcharge_multi_list.append(surcharge_multiplier)
+
     # add name and ticket price to lists
     all_names.append(name)
     all_tickets.append(ticket_price)
 
 # print details...
+# create data frame and set index to name column
 movie_frame = pandas.DataFrame(movie_data_dict)
-print(movie_frame)
+movie_frame = movie_frame.set_index('Name')
+
+# create column called 'Sub Total'
+# fill it price for snacks and ticket
+
+movie_frame["Sub Total"] = \
+    movie_frame['Ticket'] + \
+    movie_frame['Popcorn']*price_dict['Popcorn'] + \
+    movie_frame['Water'] * price_dict['Water'] + \
+    movie_frame['Pita Chips'] * price_dict['Pita Chips'] + \
+    movie_frame['M&Ms'] * price_dict['M&Ms'] + \
+    movie_frame['Orange Juice'] * price_dict['Orange Juice']
+
+movie_frame["Surcharge"] = \
+    movie_frame["Sub Total"] * movie_frame["Surcharge_Multiplier"]
+
+movie_frame["Total"] = movie_frame['Sub Total'] + \
+    movie_frame['Surcharge']
+
+# shorten column names
+movie_frame = movie_frame.rename(columns={'Orange Juice': 'OJ',
+                                          'Pita Chips': 'Chips',
+                                          'Surcharge_Multiplier': 'SM'})
+
+# set up columns to be printed...
+pandas.set_option('display.max_columns', None)
+
+# Display numbers to 2 dp...
+pandas.set_option('precision', 2)
+
+print_all = input("Prit all columns?? (y) for yes")
+if print_all == "y":
+    print(movie_frame)
+else:
+    print(movie_frame[['Ticket', 'Sub Total', 'Surcharge', 'Total']])
+
+print()
 
 # calculate ticket profit...
 ticket_profit = ticket_sales - (5 * ticket_count)
