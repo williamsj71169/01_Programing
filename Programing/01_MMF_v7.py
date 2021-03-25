@@ -124,7 +124,7 @@ def get_snack():
 
     valid_snacks = [
         ["popcorn", "p", "pop", "corn", "a"],
-        ["M&Ms", "m&ms", "mms", ",mm", "m", "b"],
+        ["M&Ms", "m&ms", "mms", "mm", "m", "b"],
         ["pita chips", "chips", "pc", "pita", "c"],
         ["water", "w", "h2o", "d"],
         ["orange juice", "oj", "o", "juice", "orange", "e"]
@@ -210,7 +210,7 @@ snack_lists = [popcorn, mms, pita_chips, water, orange_juice]
 surcharge_multi_list = []
 
 # lists to store summary data...
-summary_headings = ["Popcorn", "M&Ms", "Pita Chips", "Water",
+summary_headings = ["Popcorn", "Water", "Pita Chips", "M&Ms",
                     "Orange Juice", "Snack Profit", "Ticket Profit",
                     "Total Profit"]
 summary_data = []
@@ -337,21 +337,22 @@ movie_frame = movie_frame.rename(columns={'Orange Juice': 'OJ',
 # populate snack items...
 for item in snack_lists:
     # sum items in each snack list
-    summary_data.append(sum(item))
+    total = sum(item)
+    summary_data.append("{:.0f}".format(total))
 
 # get snack profit
 # get snack total from panda
 snack_total = movie_frame['Snacks'].sum()
 snack_profit = snack_total * 0.2
-summary_data.append(snack_profit)
+summary_data.append("${:.2f}".format(snack_profit))
 
 # get ticket profit and add to list
 ticket_profit = ticket_sales - (5 * ticket_count)
-summary_data.append(ticket_profit)
+summary_data.append("${:.2f}".format(ticket_profit))
 
 # work out total profit and add to list
 total_profit = snack_profit + ticket_profit
-summary_data.append(total_profit)
+summary_data.append("${:.2f}".format(total_profit))
 
 # create summary frame
 summary_frame = pandas.DataFrame(summary_data_dict)
@@ -382,10 +383,6 @@ else:
     print("You have sold {} tickets. \n"
           "There are {} tickets still available".format(ticket_count, max_tickets - ticket_count))
 
-    # Ask payment method and work out surcharge if credit is chosen
-    # surcharge of *0.05
-
-    # work out total cost of ticket/snacks/surcharge
 
 # check that no more than 150 seats(loop until 150 or exit code)
 
