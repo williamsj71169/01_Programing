@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01_MMF_v7.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="01_MMF_v7.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+            <state relative-caret-position="3825">
+              <caret line="311" column="37" selection-start-line="311" selection-start-column="37" selection-end-line="311" selection-end-column="37" />
               <folding>
                 <element signature="e#135#479#0" expanded="false" />
                 <element signature="e#545#975#0" expanded="false" />
@@ -79,7 +79,7 @@
       <file leaf-file-name="01_MMF_v8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="629">
               <caret line="183" column="34" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
               <folding>
                 <element signature="e#135#479#0" expanded="false" />
@@ -94,13 +94,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10_instructions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01_MMF_v9.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
+              <folding>
+                <element signature="e#135#479#0" expanded="false" />
+                <element signature="e#545#975#0" expanded="false" />
+                <element signature="e#1095#1362#0" expanded="false" />
+                <element signature="e#1427#1913#0" expanded="false" />
+                <element signature="e#1973#2579#0" expanded="false" />
+                <element signature="e#2623#4552#0" expanded="false" />
+                <element signature="e#4604#4630#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10_instructions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Programing/10_instructions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
               <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#57#660#0" expanded="false" />
+                <marker date="1616967316981" expanded="true" signature="689:1051" ph="..." />
+                <marker date="1616967316981" expanded="true" signature="763:886" ph="..." />
+                <marker date="1616967316981" expanded="true" signature="914:1036" ph="..." />
               </folding>
             </state>
           </provider>
@@ -148,23 +169,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01_MMF_v4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="109" column="31" selection-start-line="85" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-              <folding>
-                <element signature="e#135#479#0" expanded="false" />
-                <element signature="e#545#975#0" expanded="false" />
-                <element signature="e#1095#1362#0" expanded="false" />
-                <element signature="e#1427#1901#0" expanded="false" />
-                <element signature="e#1961#2567#0" expanded="false" />
-                <element signature="e#2611#4439#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -192,9 +196,9 @@
         <option value="$PROJECT_DIR$/Programing/09_surcharge_v1.py" />
         <option value="$PROJECT_DIR$/Programing/01_MMF_v6.py" />
         <option value="$PROJECT_DIR$/Programing/01_MMF_v5.py" />
-        <option value="$PROJECT_DIR$/Programing/01_MMF_v7.py" />
         <option value="$PROJECT_DIR$/Programing/01_MMF_v8.py" />
         <option value="$PROJECT_DIR$/Programing/10_instructions.py" />
+        <option value="$PROJECT_DIR$/Programing/01_MMF_v7.py" />
       </list>
     </option>
   </component>
@@ -277,23 +281,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.01_MMF_v7">
-    <configuration default="false" name="08_Snack_list_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="01_Programing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programing/08_Snack_list_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="08_Snack_list_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,6 +345,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="01_Programing" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programing/01_MMF_v7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="01_MMF_v9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="01_Programing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programing/01_MMF_v9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -497,19 +501,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.08_Snack_list_v1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.08_Snack_list_v2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.09_surcharge_v1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.01_MMF_v5" />
-      <item index="4" class="java.lang.String" itemvalue="Python.01_MMF_v7" />
+      <item index="0" class="java.lang.String" itemvalue="Python.08_Snack_list_v2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.09_surcharge_v1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.01_MMF_v5" />
+      <item index="3" class="java.lang.String" itemvalue="Python.01_MMF_v7" />
+      <item index="4" class="java.lang.String" itemvalue="Python.01_MMF_v9" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.01_MMF_v7" />
-        <item index="1" class="java.lang.String" itemvalue="Python.01_MMF_v5" />
-        <item index="2" class="java.lang.String" itemvalue="Python.09_surcharge_v1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.08_Snack_list_v2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.08_Snack_list_v1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.01_MMF_v9" />
+        <item index="2" class="java.lang.String" itemvalue="Python.01_MMF_v5" />
+        <item index="3" class="java.lang.String" itemvalue="Python.09_surcharge_v1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.08_Snack_list_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -528,25 +532,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="955" y="0" width="972" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.024058577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37033084" sideWeight="0.15160955" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.84839046" order="2" side_tool="false" content_ui="tabs" x="961" y="636" width="958" height="403" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15368196" sideWeight="0.84839046" order="2" side_tool="false" content_ui="tabs" x="977" y="423" width="956" height="309" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -603,21 +607,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="244" selection-end-column="18" />
-          <folding>
-            <element signature="e#135#479#0" expanded="false" />
-            <element signature="e#545#975#0" expanded="false" />
-            <element signature="e#1095#1362#0" expanded="false" />
-            <element signature="e#1427#1901#0" expanded="false" />
-            <element signature="e#1961#2567#0" expanded="false" />
-            <element signature="e#2611#4439#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Programing/08_Snack_list_v1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1029,22 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="183" column="34" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
-          <folding>
-            <element signature="e#135#479#0" expanded="false" />
-            <element signature="e#545#975#0" expanded="false" />
-            <element signature="e#1095#1362#0" expanded="false" />
-            <element signature="e#1427#1913#0" expanded="false" />
-            <element signature="e#1973#2579#0" expanded="false" />
-            <element signature="e#4604#4630#0" expanded="false" />
-            <marker date="1616966234665" expanded="false" signature="2617:4549" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1066,26 +1039,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-          <folding>
-            <element signature="e#135#479#0" expanded="false" />
-            <element signature="e#545#975#0" expanded="false" />
-            <element signature="e#1095#1362#0" expanded="false" />
-            <element signature="e#1427#1913#0" expanded="false" />
-            <element signature="e#1973#2579#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Programing/10_instructions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#57#660#0" expanded="false" />
+            <marker date="1616967316981" expanded="true" signature="689:1051" ph="..." />
+            <marker date="1616967316981" expanded="true" signature="763:886" ph="..." />
+            <marker date="1616967316981" expanded="true" signature="914:1036" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
+          <folding>
+            <element signature="e#135#479#0" expanded="false" />
+            <element signature="e#545#975#0" expanded="false" />
+            <element signature="e#1095#1362#0" expanded="false" />
+            <element signature="e#1427#1913#0" expanded="false" />
+            <element signature="e#1973#2579#0" expanded="false" />
+            <element signature="e#2623#4552#0" expanded="false" />
+            <element signature="e#4604#4630#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="183" column="34" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
+          <folding>
+            <element signature="e#135#479#0" expanded="false" />
+            <element signature="e#545#975#0" expanded="false" />
+            <element signature="e#1095#1362#0" expanded="false" />
+            <element signature="e#1427#1913#0" expanded="false" />
+            <element signature="e#1973#2579#0" expanded="false" />
+            <element signature="e#4604#4630#0" expanded="false" />
+            <marker date="1616966234665" expanded="false" signature="2617:4549" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programing/01_MMF_v7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3825">
+          <caret line="311" column="37" selection-start-line="311" selection-start-column="37" selection-end-line="311" selection-end-column="37" />
+          <folding>
+            <element signature="e#135#479#0" expanded="false" />
+            <element signature="e#545#975#0" expanded="false" />
+            <element signature="e#1095#1362#0" expanded="false" />
+            <element signature="e#1427#1913#0" expanded="false" />
+            <element signature="e#1973#2579#0" expanded="false" />
           </folding>
         </state>
       </provider>

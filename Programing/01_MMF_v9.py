@@ -124,9 +124,9 @@ def get_snack():
 
     valid_snacks = [
         ["popcorn", "p", "pop", "corn", "a"],
-        ["water", "w", "h2o", "d"],
-        ["pita chips", "chips", "pc", "pita", "c"],
         ["M&Ms", "m&ms", "mms", "mm", "m", "b"],
+        ["pita chips", "chips", "pc", "pita", "c"],
+        ["water", "w", "h2o", "d"],
         ["orange juice", "oj", "o", "juice", "orange", "e"]
     ]
 
@@ -173,7 +173,15 @@ def get_snack():
         if snack_choice != "xxx" and snack_choice != "invalid choice" and snack_choice != "n":
             snack_order.append(snack_row)
 
+
+# currency formatting function
+def currency(x):
+    return "${:.2f}".format(x)
+
+
 # main stuff
+
+# set up lists needed to hold data
 
 # valid options for yes/no questions
 yes_no = [
@@ -199,12 +207,12 @@ all_tickets = []
 
 # snack lists...
 popcorn = []
-water = []
-pita_chips = []
 mms = []
+pita_chips = []
+water = []
 orange_juice = []
 
-snack_lists = [popcorn, water, pita_chips, mms, orange_juice]
+snack_lists = [popcorn, mms, pita_chips, water, orange_juice]
 
 # store surcharge multiplier
 surcharge_multi_list = []
@@ -352,7 +360,13 @@ summary_data.append("${:.2f}".format(ticket_profit))
 
 # work out total profit and add to list
 total_profit = snack_profit + ticket_profit
-summary_data.append("${:.2f}".format(total_profit))
+
+# format dollar amounts and add to list...
+dollar_amounts = [snack_profit, ticket_profit, total_profit]
+for item in dollar_amounts:
+    item = "${:.2f}".format(item)
+    summary_data.append(item)
+
 
 # create summary frame
 summary_frame = pandas.DataFrame(summary_data_dict)
@@ -361,8 +375,18 @@ summary_frame = summary_frame.set_index('Item')
 # set up columns to be printed...
 pandas.set_option('display.max_columns', None)
 
-# Display numbers to 2 dp...
-pandas.set_option('precision', 2)
+# *** pre printing / export ***
+# Format currency values so they have $'s
+
+# ticket details formatting (uses currency function)
+add_dollars = ['Ticket', 'Snacks', 'Surcharge', 'Total', 'Sub Total']
+for item in add_dollars:
+    movie_frame[item] = movie_frame[item].apply(currency)
+
+# write each frame to separate csv files
+movie_frame.to_csv("ticket_details.csv")
+summary_frame.to_csv("snack_summary.csv")
+
 
 print()
 print("*** Ticket / Snack Information ***")
