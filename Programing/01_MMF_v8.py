@@ -124,9 +124,9 @@ def get_snack():
 
     valid_snacks = [
         ["popcorn", "p", "pop", "corn", "a"],
-        ["M&Ms", "m&ms", "mms", "mm", "m", "b"],
-        ["pita chips", "chips", "pc", "pita", "c"],
         ["water", "w", "h2o", "d"],
+        ["pita chips", "chips", "pc", "pita", "c"],
+        ["M&Ms", "m&ms", "mms", "mm", "m", "b"],
         ["orange juice", "oj", "o", "juice", "orange", "e"]
     ]
 
@@ -207,12 +207,12 @@ all_tickets = []
 
 # snack lists...
 popcorn = []
-mms = []
-pita_chips = []
 water = []
+pita_chips = []
+mms = []
 orange_juice = []
 
-snack_lists = [popcorn, mms, pita_chips, water, orange_juice]
+snack_lists = [popcorn, water, pita_chips, mms, orange_juice]
 
 # store surcharge multiplier
 surcharge_multi_list = []
@@ -352,11 +352,9 @@ for item in snack_lists:
 # get snack total from panda
 snack_total = movie_frame['Snacks'].sum()
 snack_profit = snack_total * 0.2
-summary_data.append("${:.2f}".format(snack_profit))
 
 # get ticket profit and add to list
 ticket_profit = ticket_sales - (5 * ticket_count)
-summary_data.append("${:.2f}".format(ticket_profit))
 
 # work out total profit and add to list
 total_profit = snack_profit + ticket_profit

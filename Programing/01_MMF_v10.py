@@ -134,14 +134,14 @@ def get_snack():
     snack_order = []
 
     desired_snack = ""
-    while desired_snack != "xxx" or desired_snack != "no":
+    while desired_snack != "xxx" or desired_snack != "n":
 
         snack_row = []
 
         # ask user for desired snack and put in lowercase
         desired_snack = input("Snack: ").lower()
 
-        if desired_snack == "xxx" or desired_snack == "no":
+        if desired_snack == "xxx" or desired_snack == "n":
             return snack_order
 
         # if item has a number, separate into two.
@@ -170,7 +170,7 @@ def get_snack():
         snack_row.append(snack_choice)
 
         # check that snack is not the exit code before adding
-        if snack_choice != "xxx" and snack_choice != "invalid choice" and snack_choice != "no":
+        if snack_choice != "xxx" and snack_choice != "invalid choice" and snack_choice != "n":
             snack_order.append(snack_row)
 
 
@@ -180,8 +180,6 @@ def currency(x):
 
 
 # main stuff
-
-# set up lists needed to hold data
 
 # valid options for yes/no questions
 yes_no = [
@@ -352,19 +350,15 @@ for item in snack_lists:
 # get snack total from panda
 snack_total = movie_frame['Snacks'].sum()
 snack_profit = snack_total * 0.2
+summary_data.append("${:.2f}".format(snack_profit))
 
 # get ticket profit and add to list
 ticket_profit = ticket_sales - (5 * ticket_count)
+summary_data.append("${:.2f}".format(ticket_profit))
 
 # work out total profit and add to list
 total_profit = snack_profit + ticket_profit
-
-# format dollar amounts and add to list...
-dollar_amounts = [snack_profit, ticket_profit, total_profit]
-for item in dollar_amounts:
-    item = "${:.2f}".format(item)
-    summary_data.append(item)
-
+summary_data.append("${:.2f}".format(total_profit))
 
 # create summary frame
 summary_frame = pandas.DataFrame(summary_data_dict)
@@ -373,18 +367,8 @@ summary_frame = summary_frame.set_index('Item')
 # set up columns to be printed...
 pandas.set_option('display.max_columns', None)
 
-# *** pre printing / export ***
-# Format currency values so they have $'s
-
-# ticket details formatting (uses currency function)
-add_dollars = ['Ticket', 'Snacks', 'Surcharge', 'Total', 'Sub Total']
-for item in add_dollars:
-    movie_frame[item] = movie_frame[item].apply(currency)
-
-# write each frame to separate csv files
-movie_frame.to_csv("ticket_details.csv")
-summary_frame.to_csv("snack_summary.csv")
-
+# Display numbers to 2 dp...
+pandas.set_option('precision', 2)
 
 print()
 print("*** Ticket / Snack Information ***")
