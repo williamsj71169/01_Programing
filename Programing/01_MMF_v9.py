@@ -195,7 +195,7 @@ pay_method = [
     ["credit", "cr"]
 ]
 
-max_tickets = 5
+max_tickets = 50
 
 name = ""
 ticket_count = 0
